@@ -29,11 +29,6 @@ Open PowerShell in the project folder, then run:
 # Basic usage
 .\SSL-Checker\Get-WebsiteSSLInfo.ps1 -Domain example.com
 
-## Example Output
 
-Subject: CN=*.google.com
-Issuer: CN=WR2, O=Google Trust Services, C=US
-Thumbprint: FC294D585EE67445800C2CFE142F15E5F55219FC
-Valid From: 01/26/2026 02:39:20
-Valid Until: 04/20/2026 03:39:19
-Days Until Expiration: 52
+
+
