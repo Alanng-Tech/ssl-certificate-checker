@@ -4,21 +4,22 @@ A PowerShell script to retrieve SSL certificate information from any website. Us
 
 ## Features
 - Retrieves **Subject**, **Issuer**, **Thumbprint**
-- Shows **Valid From / Valid Until** and **Days Until Expiration**
+- Displays **Valid From / Valid Until** and **Days Until Expiration**
 - Handles wildcard certificates
-- Error handling included
+- Basic error handling
 
 ## Requirements
 - PowerShell 5.1+
 - Network access to target site (port 443)
 
 ## Usage
+
+Open PowerShell in the project folder and run:
+
 ```powershell
 .\Get-WebsiteSSLInfo.ps1 -Domain example.com
 ```
 
-## Example Output
-```text
 Subject: CN=*.google.com
 Issuer: CN=WR2, O=Google Trust Services, C=US
 Thumbprint: FC294D585EE67445800C2CFE142F15E5F55219FC
