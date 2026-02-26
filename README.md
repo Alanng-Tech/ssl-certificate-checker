@@ -1,3 +1,5 @@
+A PowerShell tool to quickly inspect SSL certificates and track expiration for any website.
+
 # SSL Certificate Checker (PowerShell)
 
 PowerShell script to retrieve SSL certificate information from any website. Useful for developers and security engineers to monitor certificate validity, expiration, and SSL details.
